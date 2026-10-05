@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV Muhammad Kartamijaya</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f1f5f9;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cv-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+        }
+
+        .cv-header {
+            background: linear-gradient(120deg, #132238, #174b59, #0f8b8d);
+            color: white;
+            padding: 50px;
+        }
+
+        .cv-photo {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            object-position: center top;
+            border: 7px solid #ffb703;
+        }
+
+        .cv-label {
+            color: #ffb703;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .cv-role {
+            color: #8ee3d5;
+            font-weight: bold;
+        }
+
+        .sidebar {
+            background-color: #dff7f2;
+            padding: 35px 30px;
+        }
+
+        .main-content {
+            padding: 35px 45px;
+        }
+
+        .section-title {
+            color: #07666b;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ffb703;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-item {
+            margin-bottom: 18px;
+        }
+
+        .contact-item small {
+            display: block;
+            color: #65758b;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        .skill-item {
+            background: white;
+            border-left: 4px solid #fb8500;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .personal-item {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding-bottom: 10px;
+            margin-bottom: 14px;
+        }
+
+        .personal-item small {
+            display: block;
+            color: #65758b;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 30px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            width: 13px;
+            height: 13px;
+            border: 3px solid #0f8b8d;
+            border-radius: 50%;
+            background: white;
+        }
+
+        .timeline-item::after {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 18px;
+            width: 2px;
+            height: calc(100% + 15px);
+            background: #dff7f2;
+        }
+
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        .timeline-date {
+            color: #fb8500;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .timeline-item h3 {
+            font-size: 19px;
+            color: #132238;
+        }
+
+        .timeline-item p {
+            color: #65758b;
+            line-height: 1.7;
+        }
+
+        .interest-card {
+            padding: 20px;
+            border-top: 4px solid #0f8b8d;
+            background: #f3faf8;
+            height: 100%;
+        }
+
+        .interest-card:nth-child(2) {
+            border-top-color: #fb8500;
+            background: #fff6e7;
+        }
+
+        .interest-card:nth-child(3) {
+            border-top-color: #ffb703;
+            background: #fffbea;
+        }
+
+        .interest-number {
+            color: #0f8b8d;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .cv-footer {
+            padding: 18px;
+            text-align: center;
+            background: #132238;
+            color: #bcccdc;
+            font-size: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .cv-container {
+                margin: 10px;
+            }
+
+            .cv-header {
+                padding: 30px 25px;
+            }
+
+            .main-content {
+                padding: 30px 25px;
+            }
+
+            .sidebar {
+                padding: 30px 25px;
+            }
+
+            .cv-photo {
+                width: 130px;
+                height: 130px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="cv-container">
+
+            <!-- ================= HEADER ================= -->
+            <header class="cv-header">
+
+                <div class="row align-items-center g-4">
+
+                    <div class="col-md-8 order-2 order-md-1">
+
+                        <p class="cv-label mb-3">
+                            Profile
+                        </p>
+
+                        <h1 class="display-3 fw-bold mb-3">
+                            Muhammad<br>
+                            Kartamijaya
+                        </h1>
+
+                        <p class="cv-role fs-5 mb-0">
+                            Mahasiswa S1 Teknologi Informasi
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-4 text-center order-1 order-md-2">
+
+                        <img src="poto%20saya.jpg" alt="Foto Muhammad Kartamijaya"
+                            class="cv-photo rounded-circle img-fluid">
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- ================= CONTENT ================= -->
+
+            <div class="row g-0">
+
+                <!-- ================= SIDEBAR ================= -->
+
+                <aside class="col-lg-4 sidebar">
+
+                    <!-- KONTAK -->
+                    <section class="mb-5">
+
+                        <h2 class="section-title">
+                            Kontak
+                        </h2>
+
+                        <div class="contact-item">
+                            <small>Telepon</small>
+                            <a href="tel:+6287814023996" class="text-dark text-decoration-none fw-bold">
+                                087814023996
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <small>Email</small>
+                            <a href="mailto:kartamijayajalek@gmail.com" class="text-dark text-decoration-none fw-bold">
+                                kartamijayajalek@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <small>Website</small>
+                            <a href="http://karta.infinityfree.me/?i=1" target="_blank"
+                                class="text-dark text-decoration-none fw-bold">
+                                karta.infinityfree.me
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <small>Alamat</small>
+                            <span class="fw-bold">
+                                Jln. Pramuka No. 13, Kuripan
+                            </span>
+                        </div>
+
+                    </section>
+
+
+                    <!-- PEKERJAAN -->
+                    <section class="mb-5">
+
+                        <h2 class="section-title">
+                            Pekerjaan
+                        </h2>
+
+                        <div class="skill-item">
+                            Pelaku Budaya
+                        </div>
+
+                        <div class="skill-item">
+                            Penulis
+                        </div>
+
+                        <div class="skill-item">
+                            Belajar Berkelanjutan
+                        </div>
+
+                    </section>
+
+
+                    <!-- DATA PRIBADI -->
+                    <section>
+
+                        <h2 class="section-title">
+                            Data Pribadi
+                        </h2>
+
+                        <div class="personal-item">
+
+                            <small>Nama</small>
+
+                            <strong>
+                                Muhammad Kartamijaya
+                            </strong>
+
+                        </div>
+
+                        <div class="personal-item">
+
+                            <small>Jenis Kelamin</small>
+
+                            <strong>
+                                Laki-laki
+                            </strong>
+
+                        </div>
+
+                        <div class="personal-item">
+
+                            <small>Tanggal Lahir</small>
+
+                            <strong>
+                                31 Agustus 2006
+                            </strong>
+
+                        </div>
+
+                        <div class="personal-item">
+
+                            <small>Alamat</small>
+
+                            <strong>
+                                Jln. Pramuka No. 13, Kuripan
+                            </strong>
+
+                        </div>
+
+                    </section>
+
+                </aside>
+
+
+                <!-- ================= MAIN ================= -->
+
+                <main class="col-lg-8 main-content">
+
+                    <!-- PROFIL -->
+
+                    <section class="mb-5">
+
+                        <h2 class="section-title">
+                            Profil
+                        </h2>
+
+                        <p class="text-secondary lh-lg">
+                            Mahasiswa S1 Teknologi Informasi yang tertarik
+                            mempelajari dunia teknologi, mengembangkan
+                            kemampuan, dan memahami bagaimana teknologi
+                            dapat digunakan untuk membuat sesuatu yang
+                            bermanfaat.
+                        </p>
+
+                    </section>
+
+
+                    <!-- PENDIDIKAN -->
+
+                    <section class="mb-5">
+
+                        <h2 class="section-title">
+                            Pendidikan
+                        </h2>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2025 - 2029
+                            </div>
+
+                            <h3 class="fw-bold">
+                                S1 Teknologi Informasi
+                            </h3>
+
+                            <p>
+                                Sedang menempuh pendidikan di bidang
+                                Teknologi Informasi dan terus mengembangkan
+                                kemampuan di dunia digital.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2021 - 2024
+                            </div>
+
+                            <h3 class="fw-bold">
+                                MA Al Madani
+                            </h3>
+
+                            <p>
+                                Menempuh pendidikan menengah atas dengan
+                                fokus pada pengembangan kemampuan akademik
+                                dan dasar keilmuan.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2018 - 2021
+                            </div>
+
+                            <h3 class="fw-bold">
+                                MTS AL MADANI
+                            </h3>
+
+                            <p>
+                                Melanjutkan pendidikan pada tingkat
+                                menengah pertama dan membangun dasar
+                                belajar yang lebih serius.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2012 - 2018
+                            </div>
+
+                            <h3 class="fw-bold">
+                                SDN 3 Kuripan
+                            </h3>
+
+                            <p>
+                                Memulai tahap pendidikan awal dengan
+                                pembelajaran dasar, sosialisasi,
+                                dan pengembangan karakter.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2008 - 2012
+                            </div>
+
+                            <h3 class="fw-bold">
+                                TK Al Madani
+                            </h3>
+
+                            <p>
+                                Memulai pendidikan dasar dan memperoleh
+                                pembelajaran dasar membaca, menulis,
+                                serta pengetahuan umum.
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- PENGALAMAN -->
+
+                    <section class="mb-5">
+
+                        <h2 class="section-title">
+                            Pengalaman
+                        </h2>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2023 - Sekarang
+                            </div>
+
+                            <h3 class="fw-bold">
+                                Sekretaris Yayasan Pemaos Sabda Jati
+                            </h3>
+
+                            <p>
+                                Bertanggung jawab dalam membantu
+                                administrasi yayasan, mengelola dokumen,
+                                serta mendukung kelancaran kegiatan
+                                organisasi dan komunikasi internal.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2024 - Sekarang
+                            </div>
+
+                            <h3 class="fw-bold">
+                                Staff Aliansi Masyarakat Adat Nusantara
+                                (AMAN)
+                            </h3>
+
+                            <p>
+                                Berperan dalam mendukung kegiatan
+                                organisasi, membantu pelaksanaan program,
+                                serta berkontribusi dalam pengelolaan
+                                komunikasi dan kegiatan kemasyarakatan.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2020 - 2021
+                            </div>
+
+                            <h3 class="fw-bold">
+                                Pemain Bali United
+                            </h3>
+
+                            <p>
+                                Memiliki pengalaman bermain di Bali United
+                                serta berkontribusi dalam tim melalui
+                                kerja sama, disiplin, dan semangat untuk
+                                mencapai hasil terbaik.
+                            </p>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2021 - 2023
+                            </div>
+
+                            <h3 class="fw-bold">
+                                Anggota Majlis Adat Sasak
+                            </h3>
+
+                            <p>
+                                Berperan aktif dalam menjaga dan
+                                melestarikan nilai budaya serta adat
+                                istiadat masyarakat Sasak melalui kegiatan
+                                organisasi dan pengembangan kebudayaan lokal.
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- MINAT PROFESIONAL -->
+
+                    <section>
+
+                        <h2 class="section-title">
+                            Minat Profesional
+                        </h2>
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+
+                                <div class="interest-card rounded">
+
+                                    <div class="interest-number mb-3">
+                                        01
+                                    </div>
+
+                                    <h3 class="fw-bold">
+                                        Teknologi
+                                    </h3>
+
+                                    <p class="text-secondary">
+                                        Memahami konsep dan penerapan
+                                        teknologi untuk kebutuhan digital.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <div class="interest-card rounded">
+
+                                    <div class="interest-number mb-3">
+                                        02
+                                    </div>
+
+                                    <h3 class="fw-bold">
+                                        Budaya Lombok
+                                    </h3>
+
+                                    <p class="text-secondary">
+                                        Mengembangkan budaya lokal Lombok
+                                        dengan pendekatan modern agar nilai
+                                        budaya dapat dikenal dan dilestarikan
+                                        di seluruh dunia.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <div class="interest-card rounded">
+
+                                    <div class="interest-number mb-3">
+                                        03
+                                    </div>
+
+                                    <h3 class="fw-bold">
+                                        Adventure
+                                    </h3>
+
+                                    <p class="text-secondary">
+                                        Menyukai kegiatan petualangan yang
+                                        menambah pengalaman, keberanian,
+                                        serta wawasan terhadap lingkungan
+                                        dan budaya.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </main>
+
+            </div>
+
+
+            <!-- ================= FOOTER ================= -->
+
+            <footer class="cv-footer">
+
+                CV Muhammad Kartamijaya
+                <span class="mx-2 text-warning">•</span>
+                2026
+
+            </footer>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
